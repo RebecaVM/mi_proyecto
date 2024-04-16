@@ -9,7 +9,7 @@ body {
 
 
 header, footer {
-    background-color: #d60000; /* Rojo intenso */
+    background-color: #d60000; 
     color: #ffffff;
     padding: 20px;
     text-align: center;
@@ -22,8 +22,8 @@ header a, footer a {
 
 nav {
     padding: 15px;
-    background-color: #000000; /* Gris oscuro */
-    width: 100%; /* Asegura que nav no sea más ancho que su contenedor */
+    background-color: #000000; 
+    width: 100%; 
     box-sizing: border-box;
 
 }
@@ -38,10 +38,6 @@ nav {
     margin-right: 20px;
 }
 
-lideres {
-    text-align: center;
-    margin-right: 0;
-}
 
 nav ul {
     list-style-type: none;
@@ -97,7 +93,7 @@ main {
 }
 
 button {
-    background-color: #d60000; /* Rojo intenso */
+    background-color: #d60000; 
     color: white;
     border: none;
     padding: 10px 20px;
@@ -106,7 +102,7 @@ button {
 }
 
 button:hover {
-    background-color: #bb0000; /* Rojo más oscuro */
+    background-color: #bb0000; 
 }
 
 /* Estilos para el pie de página */
@@ -198,7 +194,7 @@ footer {
     margin-right: 40px;
     width: 130px;
     height: auto;
-    display: block; /* Asegura que el logo tiene su propio bloque visual */
+    display: block;
     margin-bottom: 10px;
 }
 
@@ -214,23 +210,23 @@ footer {
 
 .carousel {
     position: relative;
-    max-width: 600px; /* Ajusta esto según el diseño de tu sitio */
+    max-width: 600px; 
     margin: auto;
     overflow: hidden;
 }
 
 .carousel-item img {
-    width: 100%; /* Asegura que la imagen ocupe todo el contenedor */
+    width: 100%; 
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
 .carousel-item {
-    flex: 0 0 100%; /* Cada ítem ocupa el 100% del ancho del contenedor */
-    display: none; /* Oculta todos los ítems inicialmente */
+    flex: 0 0 100%; 
+    display: none; 
 }
 
 .carousel-item.active {
-    display: block; /* Solo muestra el ítem activo */
+    display: block; 
 }
 .carousel-control {
     position: absolute;
@@ -252,39 +248,9 @@ footer {
     right: 10px;
 }
 
-body, h1, h2, p { margin: 0; padding: 0; font-family: Arial, sans-serif; }
-
-.carousel {
-    position: relative;
-    max-width: 600px;
-    margin: auto;
-    overflow: hidden;
-}
-
 .carousel-items {
     display: flex;
     width: 100%;
-}
-
-.carousel-item {
-    flex: 0 0 100%;
-    display: none;
-}
-
-.carousel-item.active {
-    display: block;
-}
-
-.carousel-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    color: white;
-    font-size: 30px;
-    cursor: pointer;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 50%;
 }
 
 .carousel-control.prev { left: 10px; }
@@ -337,9 +303,9 @@ body, h1, h2, p { margin: 0; padding: 0; font-family: Arial, sans-serif; }
     }
 }
 .social-icon {
-    width: 50px; /* Puedes ajustar este valor según tus necesidades */
+    width: 50px; 
     height: auto;
-    margin-right: 10px; /* Opcional: agrega un pequeño margen derecho para separarlo del texto */
+    margin-right: 10px; 
 }
 nav ul {
     list-style-type: none;
@@ -361,9 +327,6 @@ nav ul li:hover > ul {
     display: block;
 }
 
-body {
-    font-family: Arial, sans-serif;
-}
 
 input[type="text"], input[type="email"], input[type="tel"], select, textarea {
     width: 100%;
