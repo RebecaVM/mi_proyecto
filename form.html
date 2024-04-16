@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Voluntariado</title>
+    <link rel="stylesheet" href="css/styles.css"> <!-- Asegúrate de tener un archivo CSS para estilos -->
+</head>
+<body>
+    <header>
+        <div class="content-section">
+            <img src="img/logo.png" alt="Logo de Variedades El Económico" id="logo">
+            <h1>Variedades El Económico</h1>
+            <h2 class="lideres">"Somos los líderes en precios bajos"</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Acerca de Nosotros</a></li>
+                <li><a href="products.html">Productos</a></li>
+                <li><a href="gallery.html">Galería de Fotos</a></li>
+                <li><a href="programs.html">Nuestros Programas</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="faq.html">Preguntas Frecuentes</a></li>
+                <li>
+                    <a href="help.html">Cómo Ayudar</a>
+                    <ul>
+                        <li><a href="form.html">Voluntariado</a></li>
+                    </ul>
+                </li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h3>Formulario de Voluntariado</h3>
+        <p>Únete a nuestro equipo de voluntarios y participa activamente en nuestras actividades y eventos. Para más información, visita nuestra tienda.</p>
+        
+        <form action="form.html" method="POST">
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono">
+
+            <label for="area_interes">Área de interés:</label>
+            <select id="area_interes" name="area_interes">
+                <option value="eventos">Eventos</option>
+                <option value="educacion">Educación</option>
+                <option value="logistica">Logística</option>
+                <option value="otro">Otro</option>
+            </select>
+
+            <label for="mensaje">¿Por qué quieres ser voluntario?</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+            <button type="submit" name="btnEnviar">Enviar Solicitud</button>
+        </form>
+    </main>
+    <footer>
+        <p>© Variedades El Económico - Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
